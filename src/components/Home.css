@@ -1,0 +1,29 @@
+
+.banner_img {
+    width: 100%;
+    max-width: 1500px;
+    mask-image: linear-gradient(to bottom , rgba(0,0,0,1) , rgba(0,0,0,0));
+    z-index: -1;
+    margin-bottom: -150px;
+    
+}
+.banner_img2{
+    /* width: 100%; */
+    /* max-width: 1500px; */
+    width: 100%;
+    max-width: 170vh;
+   
+}
+.home_row{
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+@media only screen and (min-width: 1500px ) {
+    .banner_img {
+        margin-bottom: -250px;
+    }
+}
